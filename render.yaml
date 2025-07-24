@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: sunwin-vip-api
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
